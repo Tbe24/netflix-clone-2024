@@ -1,0 +1,44 @@
+
+
+/* Original styles */
+.row {
+  margin-left: 20px;
+  color: white;
+}
+
+.row .row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row .row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row .row_poster {
+  width: auto;
+  height: 150px; /* Set a fixed height for smaller boxes */
+  object-fit: cover; /* Ensures the images fit nicely */
+  margin-right: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2); /* Subtle border for a box-like look */
+  border-radius: 8px; /* Rounded corners for the box effect */
+  background-color: rgba(0, 0, 0, 0.6); /* Optional: Add background to emphasize box */
+  transition: transform 450ms, box-shadow 450ms;
+}
+
+.row .row_poster:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8); /* Add shadow on hover */
+}
+
+.row .row_posterLarge {
+  height: 250px; /* Larger size for large row */
+  border: 2px solid rgba(255, 255, 255, 0.4); /* Highlighted border for large posters */
+}
+
+.row .row_posterLarge:hover {
+  transform: scale(1.09);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.8); /* More pronounced shadow for large posters */
+}
