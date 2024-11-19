@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Tbe24.github.io/netflix-clone-2024/static/css/main.fdd11d4d.css",
-    "main.js": "/Tbe24.github.io/netflix-clone-2024/static/js/main.3ab74fb7.js",
-    "static/media/Logonetflix.png": "/Tbe24.github.io/netflix-clone-2024/static/media/Logonetflix.efdba154898d17b4cbc9.png",
-    "index.html": "/Tbe24.github.io/netflix-clone-2024/index.html",
-    "main.fdd11d4d.css.map": "/Tbe24.github.io/netflix-clone-2024/static/css/main.fdd11d4d.css.map",
-    "main.3ab74fb7.js.map": "/Tbe24.github.io/netflix-clone-2024/static/js/main.3ab74fb7.js.map"
+    "main.css": "/netflix-clone-2024/static/css/main.fdd11d4d.css",
+    "main.js": "/netflix-clone-2024/static/js/main.028a564d.js",
+    "static/media/Logonetflix.png": "/netflix-clone-2024/static/media/Logonetflix.efdba154898d17b4cbc9.png",
+    "index.html": "/netflix-clone-2024/index.html",
+    "main.fdd11d4d.css.map": "/netflix-clone-2024/static/css/main.fdd11d4d.css.map",
+    "main.028a564d.js.map": "/netflix-clone-2024/static/js/main.028a564d.js.map"
   },
   "entrypoints": [
     "static/css/main.fdd11d4d.css",
-    "static/js/main.3ab74fb7.js"
+    "static/js/main.028a564d.js"
   ]
 }
