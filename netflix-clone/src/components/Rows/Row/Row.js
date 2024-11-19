@@ -58,7 +58,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
             alt={movie.name}
             className={`row_poster ${isLargeRow && "row_posterLarge"}`}
           />
-        ))}
+        ))}   
       </div>
       <div style={{ padding: "40px" }}>
         {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} />}
